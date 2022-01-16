@@ -1,12 +1,7 @@
 trigger:
-    - task: NodeTool@0
-      inputs:
-        versionSpec: '6.x'
-        checkLatest: true
-
 - '*'
 
-  variables:
+variables:
   buildConfiguration: 'Release'
 
 stages:
